@@ -1,0 +1,24 @@
+name: Validate HTML/CSS
+
+on:
+  push:
+    branches: [ main, develop, 'feature/**' ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run HTML validation
+      run: echo "HTML files would be validated here"
+    - name: Check accessibility
+      run: echo "Accessibility checks would run here"
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Lint CSS files
+      run: echo "CSS linting would run here"
