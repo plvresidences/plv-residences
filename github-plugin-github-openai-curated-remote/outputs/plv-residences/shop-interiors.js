@@ -1,0 +1,6 @@
+window.PLV_SHOP_INTERIORS = `
+<section class="shop-category" id="interiors"><div class="category-media"><img src="assets/collection-bespoke-interiors.png" alt="Bespoke modular sofa, lounge chair, and stone table"><span>03 / Bespoke Interiors</span></div><div class="category-copy"><p class="shop-kicker">Made to order</p><h2>Furniture with<br>a sense of place.</h2><p>Original pieces, custom dimensions, material choices, and complete room compositions.</p><div class="product-grid">
+<article><small>Configurable</small><h3>Sculpted Lounge Chair</h3><p>Bouclé upholstery with a hand-finished oak or walnut base.</p><strong>From US$3,900</strong><a href="mailto:concierge@plvresidences.com?subject=Configure%20Sculpted%20Lounge%20Chair">Configure</a></article>
+<article><small>Configurable</small><h3>Cloud Modular Sofa</h3><p>Flexible modules, custom dimensions, and a curated textile library.</p><strong>From US$7,900</strong><a href="mailto:concierge@plvresidences.com?subject=Configure%20Cloud%20Modular%20Sofa">Configure</a></article>
+<article><small>Private design</small><h3>Complete Residence Package</h3><p>Furniture, objects, textiles, styling, delivery, and white-glove installation.</p><strong>By consultation</strong><a href="mailto:concierge@plvresidences.com?subject=Complete%20Residence%20Package">Start a project</a></article>
+</div></div></section>`;

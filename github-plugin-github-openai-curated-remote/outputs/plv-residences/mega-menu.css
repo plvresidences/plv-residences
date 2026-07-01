@@ -1,0 +1,16 @@
+.mega-menu{position:fixed;z-index:45;inset:82px 0 auto;padding:3.5rem clamp(1.5rem,4vw,4rem) 4rem;color:#e7e4dc;background:#1a1b19;border-top:1px solid #ffffff28;display:grid;grid-template-columns:.7fr 1.6fr;gap:6vw;opacity:0;visibility:hidden;transform:translateY(-16px);transition:opacity .3s,transform .3s,visibility .3s;box-shadow:0 25px 60px #0005}
+.header.scrolled .mega-menu{inset-block-start:70px}
+.mega-menu.open{opacity:1;visibility:visible;transform:none}
+.mega-close{position:absolute;right:4vw;top:1.2rem;padding:.4rem 0;color:#b9b6ae;background:none;border:0;border-bottom:1px solid #777;font:400 .5rem var(--sans);letter-spacing:.15em;text-transform:uppercase;cursor:pointer}
+.mega-intro>span{color:#8f8c84;font-size:.5rem;letter-spacing:.18em;text-transform:uppercase}
+.mega-intro h2{margin:1.2rem 0 2rem;font:400 clamp(2.2rem,3.3vw,4rem)/1.05 var(--serif);letter-spacing:-.015em}
+.mega-intro>a{font-size:.52rem;letter-spacing:.15em;text-transform:uppercase}
+.mega-groups{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem 3rem}
+.mega-groups div{display:flex;flex-direction:column;gap:.65rem}
+.mega-groups h3{margin:0 0 .5rem;color:white;font:400 1.1rem var(--serif)}
+.mega-groups a{padding:0;color:#aaa8a1;font:300 .72rem/1.45 var(--sans);letter-spacing:0;text-transform:none;transition:color .2s}
+.mega-groups a:hover{color:white}
+body.mega-open{overflow:hidden}
+
+@media(max-width:1020px){.mega-menu{z-index:60;inset:0;padding:7rem 1.5rem 3rem;display:block;overflow:auto}.header.scrolled .mega-menu{inset:0}.mega-close{top:2rem;right:1.5rem}.mega-intro{padding-bottom:2.5rem;border-bottom:1px solid #ffffff22}.mega-groups{grid-template-columns:1fr 1fr;margin-top:2.5rem}.header nav.open{z-index:55}.menu{z-index:65}}
+@media(max-width:680px){.mega-groups{grid-template-columns:1fr}.mega-groups div{padding-bottom:1.4rem;border-bottom:1px solid #ffffff18}}

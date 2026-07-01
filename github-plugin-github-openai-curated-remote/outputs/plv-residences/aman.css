@@ -1,0 +1,62 @@
+@import url("aman-lower.css");
+
+:root{
+  --ink:#1d1e1c;
+  --forest:#1a1b19;
+  --paper:#f1efe9;
+  --gold:#918b80;
+  --bright:#ece9e2;
+  --white:#faf9f5;
+  --serif:"Iowan Old Style","Baskerville","Times New Roman",serif;
+  --sans:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body{background:var(--paper);font-weight:300;letter-spacing:.005em}
+.header{height:82px;padding-inline:clamp(1.5rem,3.5vw,4rem);border-color:#ffffff35}
+.header.scrolled{height:70px;background:#191a18e8}
+.brand{gap:0}
+.brand b,.footer-brand b{color:inherit;font:300 1.08rem/1 var(--sans);letter-spacing:.4em}
+.brand span{display:none}
+.header nav{gap:clamp(1.7rem,2.5vw,3rem);font-size:.58rem;letter-spacing:.16em}
+.outline{padding:.45rem 0!important;border:0;border-bottom:1px solid currentColor}
+.outline:hover{color:inherit;background:none;opacity:.6}
+
+.hero-shade{background:linear-gradient(90deg,#10110fc4 0%,#10110f65 42%,transparent 75%),linear-gradient(0deg,#10110f73,transparent 52%)}
+.hero-copy{width:min(680px,84vw);margin-left:clamp(1.5rem,7vw,8rem);padding-top:8rem}
+.eyebrow{margin-bottom:2.2rem;color:inherit;font-size:.56rem;letter-spacing:.24em}
+.hero h1{max-width:640px;font-size:clamp(4.2rem,7.7vw,8rem);line-height:.94;letter-spacing:-.02em}
+.hero h1 em,.about h2 em,.contact h2 em{color:inherit;font-style:normal}
+.lead{max-width:510px;margin-top:2.2rem;color:#ffffffcf;font:300 clamp(1rem,1.3vw,1.18rem)/1.7 var(--sans)}
+.actions{gap:2.2rem;margin-top:2.5rem}
+.button{min-height:46px;padding-inline:1.5rem;font-size:.56rem;letter-spacing:.16em}
+.gold{color:#20211f;background:var(--white);border-color:var(--white)}
+.gold:hover{color:var(--white);background:transparent}
+.text-link{font-size:.55rem;letter-spacing:.14em;border:0}
+.text-link span{color:inherit}
+.hero-meta{font-size:.5rem}.hero-meta span:first-child{color:inherit}
+.scroll{font-size:.5rem}.scroll i{background:#fff9}
+
+.section{padding-block:clamp(7.5rem,13vw,13rem)}
+.label{color:#77766f;font-size:.52rem;letter-spacing:.18em}
+.label span{display:none}.label:after{width:28px;background:#9d9a91}
+.intro-grid{grid-template-columns:minmax(0,1.35fr) minmax(250px,.55fr);gap:clamp(4rem,12vw,13rem);margin-top:clamp(5rem,9vw,8rem)}
+.statement{font-size:clamp(2.6rem,4.4vw,5rem);line-height:1.15;letter-spacing:-.018em}
+.statement em{color:inherit;font-style:italic}
+.small-copy p{color:#5d5d58;font:300 1rem/1.85 var(--sans)}
+.dark-link{color:var(--ink);border:0}
+
+.residences{grid-template-columns:1.42fr .58fr;min-height:920px;background:#1a1b19}
+.residence-photo{min-height:760px;filter:saturate(.62) contrast(.96)}
+.residence-copy{padding:clamp(4rem,6vw,7rem)}
+.residence-copy .eyebrow{margin-top:4rem;color:#dedbd3}
+.residence-copy h2{font-size:clamp(3rem,4.2vw,5rem);line-height:1.05;letter-spacing:-.01em}
+.residence-copy>p:not(.eyebrow){font:300 .96rem/1.85 var(--sans)}
+.residence-copy ul{margin-block:2.8rem;border-color:#ffffff2b}
+.residence-copy li{padding:1.1rem 0;border-color:#ffffff2b;font-size:.55rem;letter-spacing:.14em}
+.residence-copy li span{display:none}
+.ghost{color:white;border-color:#ffffff75}
+.ghost:hover{color:#1d1e1c;background:white}
+
+.section-head{align-items:flex-start;margin-bottom:7rem}
+.section-head h2{font-size:clamp(3.5rem,5.5vw,6.4rem);line-height:1;text-align:left}
+.section-head h2 em{color:inherit;font-style:italic}

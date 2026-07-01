@@ -1,0 +1,6 @@
+window.PLV_SHOP_RESORT = `
+<section class="shop-category" id="resort-living"><div class="category-media"><img src="assets/collection-resort-living.png" alt="Resort bedroom with linen and bath essentials"><span>01 / Resort Living</span></div><div class="category-copy"><p class="shop-kicker">Ready to ship</p><h2>Daily rituals,<br>quietly elevated.</h2><p>Considered bed, bath, scent, and tabletop pieces inspired by the calm of a private resort.</p><div class="product-grid">
+<article><small>Bed</small><h3>Resort Linen Set</h3><p>Long-staple cotton sateen, duvet cover, fitted sheet, and four pillowcases.</p><strong>US$680</strong><button data-add="Resort Linen Set" data-price="680">Add to Bag</button></article>
+<article><small>Bath</small><h3>Bath Ritual Set</h3><p>Four plush towels, two hand towels, and two face cloths in warm ivory.</p><strong>US$190</strong><button data-add="Bath Ritual Set" data-price="190">Add to Bag</button></article>
+<article><small>Home fragrance</small><h3>Quiet Coast Scent</h3><p>Cedar, mineral air, and fig leaf in a hand-finished ceramic vessel.</p><strong>US$145</strong><button data-add="Quiet Coast Scent" data-price="145">Add to Bag</button></article>
+</div></div></section>`;
